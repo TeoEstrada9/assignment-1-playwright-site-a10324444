@@ -1,12 +1,32 @@
 import styles from '../styles/Contact.module.css'
+import Image from "next/image"
 export default function Contact() {
 
     return (
-      <div>
+      <main className={styles.main}>
+
+            <Image className={styles.menu}
+            src={"/icons/menu-icon.png"}
+            alt={"/icons/menu.png"}
+            width={50}
+            height={40}
+
+            />
+
+            <Image className={styles.gradHat} 
+
+                src={"/icons/graduation-hat.png"}
+                alt={"/icons/menu.png"}
+                width={50}
+                height={40}
+
+            />
 
 
-       <h1>Contact Us</h1>
-       <p>Want to discuss? Lets Chat</p>
+
+
+       <h1 className={styles.contactUs}>Contact Us</h1>
+       <p className={styles.discuss}>Want to discuss? Lets Chat</p>
        <form>
             <div id="first-name-box">
                 <label for="firstName">
@@ -30,8 +50,10 @@ export default function Contact() {
             </div>
        </form>
 
+       
 
-      </div>
+
+      </main>
     )
    }
    

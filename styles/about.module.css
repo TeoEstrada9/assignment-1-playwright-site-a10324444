@@ -1,0 +1,27 @@
+.main {
+    background-color: var(--quaternary-color);
+    min-height: 100vh;
+}
+.aboutMessage {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutPage {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+
+.infoSection {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.infoText {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigInfoSection {
+    font-family: Arial, Helvetica, sans-serif;
+}
